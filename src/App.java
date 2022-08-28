@@ -2,6 +2,8 @@ import java.util.ArrayList;
 
 public class App {
     public static void main(String[] args) throws Exception {
+
+        //Added new
         System.out.println("Hello, World!");
         gameStart game1= new gameStart();
         game1.startMessage();
@@ -34,7 +36,7 @@ public class App {
         myList.add(egg1);
         System.out.println("The index of the egg2 is: " + myList.indexOf(egg2));
         Object o= myList.get(2);
-        System.out.println(o);        
+        System.out.println(o);    
 
 
 
